@@ -5,3 +5,4 @@ class Bullet:
        self.image=pygame.transform.scale(self.image,(25,40),)
        self.x=x
        self.y=y 
+       self.rect=self.image.get_rect()
